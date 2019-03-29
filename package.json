@@ -30,7 +30,8 @@
   },
   "homepage": "https://github.com/malaquiasdev/eslint-config-sls-bulbasaur#readme",
   "peerDependencies": {
-    "eslint": ">= 3.0.0"
+    "eslint": ">= 3.0.0",
+    "prettier": ">= 1.16.4"
   },
   "devDependencies": {
     "eslint": "^5.15.3",
