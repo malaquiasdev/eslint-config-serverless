@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-sls-bulbasaur",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malaquiasdev/eslint-config-sls-bulbasaur.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "serverless",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "malaquiasdev"
+  ],
+  "author": "Mateus Malaquias (https://twitter.com/@malaquiasdev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malaquiasdev/eslint-config-sls-bulbasaur/issues"
+  },
+  "homepage": "https://github.com/malaquiasdev/eslint-config-sls-bulbasaur#readme"
+}
