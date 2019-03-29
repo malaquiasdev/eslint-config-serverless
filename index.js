@@ -1,9 +1,31 @@
 module.exports = {
-    globals: {
-        MyGlobal: true
-    },
-    rules: {
-        semi: [2, "always"],
-        complexity: ["error", 1]
-    }
+  extends: ['airbnb-base', 'prettier'],
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': ['error'],
+    'arrow-body-style': 'off',
+    'function-paren-newline': 'off',
+    complexity: ['error', 5],
+    'max-statements': ['error', {max: 10}],
+    'max-statements-per-line': ['error', {max: 1}],
+    'max-nested-callbacks': ['error', {max: 2}],
+    'max-depth': ['error', {max: 2}],
+    eqeqeq: ['error', 'always'],
+    'no-return-assign': ['error', 'always'],
+    'max-lines': ['error', {max: 200, skipComments: true}],
+    'max-len': ['error', 120, {ignoreUrls: true}],
+    'no-param-reassign': 'warn',
+    'max-params': ['error', 5],
+  },
+  globals: {
+    describe: true,
+    expect: true,
+    it: true,
+    jest: true,
+  },
+  env: {
+    es6: true,
+    jest: true,
+    node: true,
+  },
 };
