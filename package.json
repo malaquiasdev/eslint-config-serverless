@@ -28,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/malaquiasdev/eslint-config-sls-bulbasaur/issues"
   },
-  "homepage": "https://github.com/malaquiasdev/eslint-config-sls-bulbasaur#readme"
+  "homepage": "https://github.com/malaquiasdev/eslint-config-sls-bulbasaur#readme",
+  "peerDependencies": {
+    "eslint": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
 }
