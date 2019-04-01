@@ -38,3 +38,12 @@ or to the `.eslintrc.json` or `.eslintrc.js`:
 }
 ```
 
+## Assumptions
+
+- The ESLint rules are based on the great work of [airbnb's eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+- Created to Node.js environment
+- Usage of Jest as the test-suite
+- `env`: Browser and Node environment
+- `globals`: added some related jest variables
+- `parser`: usage of babel (used babel-eslint parser)
+
