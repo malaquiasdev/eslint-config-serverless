@@ -56,7 +56,7 @@ or to the `.eslintrc.json` or `.eslintrc.js`:
 You can tell ESLint to ignore specific files and directories by copying my .eslintignore file into your project’s root directory.
 
 ```sh
-cp node_modules/eslint-config-sls-bulbasaur/.eslintignore .
+cp node_modules/@malaquiasdev/eslint-config-serverless/.eslintignore .
 ```
 
 ### EditorConfig:
@@ -64,7 +64,7 @@ cp node_modules/eslint-config-sls-bulbasaur/.eslintignore .
 If you are using the **EditorConfig** plugin in your IDE, you can copy the file into the root folder of your project:
 
 ```sh
-cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
+cp node_modules/@malaquiasdev/eslint-config-serverless/.editorconfig .
 ```
 
 ### Prettier:
@@ -72,7 +72,7 @@ cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
 If you are using the **Prettier** plugin in your IDE, you can copy the file into the root folder of your project:
 
 ```sh
-cp node_modules/eslint-config-sls-bulbasaur/.prettierrc .
+cp node_modules/@malaquiasdev/eslint-config-serverless/.prettierrc .
 ```
 
 ## Assumptions
