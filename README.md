@@ -14,6 +14,17 @@ git+https://github.com/malaquiasdev/eslint-config-sls-bulbasaur.git
 
 ## Usage
 
+### NPM Script:
+
+```json
+"scripts": {
+  "test": "npm run test:memory && npm run test:unit",
+  "test:unit": "jest --env=node --coverage",
+  "test:memory": "jest --env=node --logHeapUsage",
+  "lint": "eslint --format codeframe src"
+},
+```
+
 ### ESLint:
 
 Add the config to either the `package.json`:
