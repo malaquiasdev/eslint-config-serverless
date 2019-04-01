@@ -45,7 +45,7 @@ or to the `.eslintrc.json` or `.eslintrc.js`:
 You can tell ESLint to ignore specific files and directories by copying my .eslintignore file in your project’s root directory.
 
 ```sh
-cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
+cp node_modules/eslint-config-sls-bulbasaur/.eslintignore .
 ```
 
 ### EditorConfig:
