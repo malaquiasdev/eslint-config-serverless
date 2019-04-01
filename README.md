@@ -67,6 +67,7 @@ cp node_modules/eslint-config-sls-bulbasaur/.prettierrc .
 - The ESLint rules are based on the great work of [airbnb's eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 - Created to Node.js environment
 - Usage Jest as the test-suite and it's already set up for you
+- Usage Prettier as code formatter and it's already set up for you
 - `env`: Node environment
 - `globals`: added some related jest variables
 
