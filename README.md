@@ -1,4 +1,4 @@
-# eslint-config-sls-bulbasaur
+# eslint-config-serverless
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) created on top of [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
@@ -9,7 +9,7 @@
 This module is for advanced users. You probably want to use [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) instead :)
 
 ```bash
-git+https://github.com/malaquiasdev/eslint-config-sls-bulbasaur.git
+git+https://github.com/malaquiasdev/eslint-config-serverless.git
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Add the config to either the `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "eslint-config-sls-bulbasaur",
+    "extends": "@malaquiasdev/eslint-config-serverless",
     "rules": {
       //your overrides
     }
@@ -44,7 +44,7 @@ or to the `.eslintrc.json` or `.eslintrc.js`:
 
 ```json
 {
-  "extends": "eslint-config-sls-bulbasaur",
+  "extends": "@malaquiasdev/eslint-config-serverless",
   "rules": {
       // your overrides
     }
