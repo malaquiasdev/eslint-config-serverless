@@ -2,7 +2,7 @@
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) created on top of [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
-> **Note**: I wrote a text to explain the rules applied by this project in Portuguese. [Meu Controle De Qualidade Para Projetos Serverless Com Node.js](https://malaquias.dev/2019/Meu-controle-de-qualidade-para-projetos-serverless-com-Node.js/)
+> **Note**: I wrote a text explaining the rules applied by this project in Portuguese. [Meu Controle De Qualidade Para Projetos Serverless Com Node.js](https://malaquias.dev/2019/Meu-controle-de-qualidade-para-projetos-serverless-com-Node.js/)
 
 ## Install
 
@@ -42,7 +42,7 @@ or to the `.eslintrc.json` or `.eslintrc.js`:
 
 #### Ignoring Files and Directories:
 
-You can tell ESLint to ignore specific files and directories by copying my .eslintignore file in your project’s root directory.
+You can tell ESLint to ignore specific files and directories by copying my .eslintignore file into your project’s root directory.
 
 ```sh
 cp node_modules/eslint-config-sls-bulbasaur/.eslintignore .
@@ -50,7 +50,7 @@ cp node_modules/eslint-config-sls-bulbasaur/.eslintignore .
 
 ### EditorConfig:
 
-If you are using the **EditorConfig** plugin in your IDE, you can copy the file to the root folder of your project:
+If you are using the **EditorConfig** plugin in your IDE, you can copy the file into the root folder of your project:
 
 ```sh
 cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
@@ -58,7 +58,7 @@ cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
 
 ### Prettier:
 
-If you are using the **Prettir** plugin in your IDE, you can copy the file to the root folder of your project:
+If you are using the **Prettier** plugin in your IDE, you can copy the file into the root folder of your project:
 
 ```sh
 cp node_modules/eslint-config-sls-bulbasaur/.prettierrc .
@@ -67,11 +67,11 @@ cp node_modules/eslint-config-sls-bulbasaur/.prettierrc .
 ## Assumptions
 
 - The ESLint rules are based on the great work of [airbnb's eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
-- Created to Node.js environment
-- Usage Jest as the test-suite and it's already set up for you
-- Usage Prettier as code formatter and it's already set up for you
+- Created for Node.js environment
+- Jest as the test-suite. It's already set up for you
+- Prettier as code formatter. It's already set up for you
 - `env`: Node environment
-- `globals`: added some related jest variables
+- `globals`: added some jest-related variables
 
 ## LICENCE
 
