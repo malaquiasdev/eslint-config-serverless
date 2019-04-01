@@ -14,6 +14,8 @@ git+https://github.com/malaquiasdev/eslint-config-sls-bulbasaur.git
 
 ## Usage
 
+### ESLint:
+
 Add the config to either the `package.json`:
 
 ```json
@@ -37,6 +39,30 @@ or to the `.eslintrc.json` or `.eslintrc.js`:
     }
 }
 ```
+
+### ESLint ignore:
+
+```sh
+cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
+```
+
+### EditorConfig:
+
+If you are using the **EditorConfig** plugin you can copy the file to the root folder of your project:
+
+```sh
+cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
+```
+
+### Prettier:
+
+If you are using the **EditorConfig** plugin you can copy the file to the root folder of your project:
+
+```sh
+cp node_modules/eslint-config-sls-bulbasaur/.editorconfig .
+```
+
+
 
 ## Assumptions
 
