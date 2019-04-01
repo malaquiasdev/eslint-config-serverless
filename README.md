@@ -2,6 +2,8 @@
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) created on top of [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
+> **Note**: I wrote a text to explain the rules applied by this project in Portuguese. [Meu Controle De Qualidade Para Projetos Serverless Com Node.js](https://malaquias.dev/2019/Meu-controle-de-qualidade-para-projetos-serverless-com-Node.js/)
+
 ## Install
 
 This module is for advanced users. You probably want to use [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) instead :)
