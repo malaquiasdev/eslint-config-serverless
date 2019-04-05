@@ -21,7 +21,9 @@ git+https://github.com/malaquiasdev/eslint-config-serverless.git
   "test": "npm run test:memory && npm run test:unit",
   "test:unit": "jest --env=node --coverage",
   "test:memory": "jest --env=node --logHeapUsage",
-  "lint": "eslint --format codeframe src"
+  "test:report": "npm run test:unit --coverageDirectory='coverage' --coverageReporters='html'",
+  "lint": "eslint --format codeframe src",
+  "lint:report": "eslint -c .eslintrc.json -f html src/** > eslint.html"
 },
 ```
 
