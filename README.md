@@ -9,7 +9,7 @@
 This module is for advanced users. You probably want to use [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) instead :)
 
 ```bash
-git+https://github.com/malaquiasdev/eslint-config-serverless.git
+npm i eslint-config-serverless
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-serverless",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JavaScript Style Guide for Serverless ready to be used in multiple projects.",
   "main": "index.js",
   "scripts": {
