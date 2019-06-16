@@ -82,7 +82,7 @@ cp node_modules/eslint-config-serverless/.prettierrc .
 If you are using the **Jest**, you can copy the file into the root folder of your project:
 
 ```sh
-cp node_modules/eslint-config-api-client/jest.config.js .
+cp node_modules/eslint-config-serverless/jest.config.js .
 ```
 
 ## Assumptions
