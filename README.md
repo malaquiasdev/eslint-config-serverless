@@ -76,6 +76,13 @@ If you are using the **Prettier** plugin in your IDE, you can copy the file into
 ```sh
 cp node_modules/@malaquiasdev/eslint-config-serverless/.prettierrc .
 ```
+### JestConfig:
+
+If you are using the **Jest**, you can copy the file into the root folder of your project:
+
+```sh
+cp node_modules/eslint-config-api-client/jest.config.js .
+```
 
 ## Assumptions
 
